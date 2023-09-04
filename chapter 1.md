@@ -66,11 +66,13 @@ TDD의 리듬
 
 다음과 같은 MONEY 객체가 있다고 가정해보자.
 
-[##_Image|kage@ZJSIj/btspXmwEBKP/V6ZT9qVthX97A5GuZF4tl0/img.png|CDM|1.3|{"originWidth":622,"originHeight":198,"style":"alignCenter","width":547,"height":174}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/23f2ef03-0350-4793-8105-24509924ca16)
+
 
 이를 다중 통화를 지원하는 보고서를 만들기 위해선 통화 단위를 추가하는 등 수정이 불가피하다.
 
-[##_Image|kage@71z7c/btspUin1tP6/s6cfE60YiNhYk1i1Ux5uKK/img.png|CDM|1.3|{"originWidth":633,"originHeight":321,"style":"alignCenter","width":544,"height":276}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/f96b148f-2334-4798-992c-9cbb0f3b3880)
+
 
 **객체를 만들면서 시작하는 것이 아닌 테스트를 먼저 만들어야 한다.**
 
