@@ -16,21 +16,27 @@
 
 테스트를 실행하기전 객체를 생성한 것을 확인하는 플래그를 세운다.
 
-[##_Image|kage@bJcR9I/btss9hyUIEM/8HklrQwMfZGKZErxCwHSkK/img.png|CDM|1.3|{"originWidth":343,"originHeight":119,"style":"alignCenter"}_##][##_Image|kage@UbzSi/btssYQWtyIS/2sl7O4gxv5ksYNiAg9p5Tk/img.png|CDM|1.3|{"originWidth":309,"originHeight":110,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/dd90b8d5-a346-4395-9a52-b24c93b26a7d)
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/3d48257a-3565-475d-ba9b-bc751adc2aa7)
+
+
 
 WasRun의 setUp을 호출해야하므로, 그 일은 TestCase에서 하도록 한다.
 
-[##_Image|kage@zxs4I/btss3HEWzkA/fWGWKwviVqpJpkxRM1ECz0/img.png|CDM|1.3|{"originWidth":479,"originHeight":221,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/3f8b4509-098c-4d0f-b049-84243f73bb73)
+
 
 이렇게 할 경우 오버라이드한 setUp 함수가 실행되면서 wasSetUp 값이 설정된다.
 
 테스트를 실행하기 전에 플래그를 검사하지 않도록 단순화한다.
 
-[##_Image|kage@bvgl70/btssTeEms6U/zwCOZo9KNgYQxuyUt2bsGk/img.png|CDM|1.3|{"originWidth":395,"originHeight":145,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/8911c96f-5933-4c80-ab52-88a40df52fb7)
+
 
 각각의 테스트는 WasRun 인스턴스를 생성해서 사용하게 된다.
 
-[##_Image|kage@df9OSS/btss86K0SvO/YHbvHbhRlua9lKODVtth2k/img.png|CDM|1.3|{"originWidth":453,"originHeight":343,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/4d1a212e-0c9d-4d7a-98b8-b431e05fac13)
+
 
 이번 장에서 한 일
 
