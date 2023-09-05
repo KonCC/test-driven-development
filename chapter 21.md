@@ -10,31 +10,37 @@
 
 테스트 하나의 실행 결과를 기록하는 TestResult ‘객체’를 반환하게 한다.
 
-[##_Image|kage@bojnm0/btssS3bP0ud/bJ02BTFCkdKjHFfIkyebak/img.png|CDM|1.3|{"originWidth":584,"originHeight":122,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/c71f9d4b-5e52-4bbc-ace3-466b922c70a6)
+
 
 TestResult 객체를 가짜구현으로 만들어준다.
 
-[##_Image|kage@bQGp4c/btssVWvYcrS/cHUd5cNfB9ewvlhKGJcyy0/img.png|CDM|1.3|{"originWidth":319,"originHeight":67,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/84fa52fe-548c-4122-9fa9-178a8d1a5843)
+
 
 그리고 run이 실행될때, TestResult를 결과로 반환한다.
 
-[##_Image|kage@boyp3A/btss71iTJYY/94Rz7UUNKJClkcKZCXtcY1/img.png|CDM|1.3|{"originWidth":444,"originHeight":195,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/ecd6fdb7-5c65-498e-9cb8-9fcc2f90b850)
+
 
 TestResult는 실제 실행된 테스트 수를 계산한다.
 
-[##_Image|kage@b6WGjV/btssS1ygkkH/oi6995Ds5krf198i7zCPMK/img.png|CDM|1.3|{"originWidth":466,"originHeight":230,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/4a9aa5a6-6e2c-43e8-aef8-a33ae44b8ec0)
+
 
 이제 run함수에서 이 메서드를 실제로 호출하게 만들자.
 
-[##_Image|kage@wXxxR/btss9AemlLN/1jGrPnKGXzRQY1WrVrEK5k/img.png|CDM|1.3|{"originWidth":366,"originHeight":220,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/8620c776-2324-4099-a9ee-5f500a0f4d68)
+
 
 실패하는 테스트의 수도 변수로 바꾸기 전에, 해당 개수를 측정하는 테스트를 다시 한 번 TestCaseTest에 작성한다.
 
-[##_Image|kage@FjzQW/btss9BqN6AU/CqokWswocdfJs9uhM9AwaK/img.png|CDM|1.3|{"originWidth":464,"originHeight":113,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/3fa313af-4132-40c0-a31c-e021901e55ae)
+
 
 그리고 testBrokenMethod를 구현한다.
+![image](https://github.com/KonCC/test-driven-development/assets/102205852/3f0a1ac7-d61b-4504-a594-dc51813a3694)
 
-[##_Image|kage@pxKnB/btssTuHccBh/kqig3kbV5yhZCofnNTS3H1/img.png|CDM|1.3|{"originWidth":275,"originHeight":81,"style":"alignCenter"}_##]
 
 예외 처리는 잠시 할 일 목록에 남겨두자.
 
