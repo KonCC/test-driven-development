@@ -33,7 +33,7 @@ unit testing framework를 통틀어 칭하는 명칭이다.
 ![image](https://github.com/KonCC/test-driven-development/assets/102205852/fd8cfd40-6756-4707-a9ae-1f59a6b52a45)
 
 
-책에서는 testMethod를 정의해야 할 때 그 사실을 알아채고 스텁을 자동으로 생성해주면 얼마나 좋을까 하는데 , 코파일럿이 실제로 해준다.. 좋은 세
+책에서는 testMethod를 정의해야 할 때 그 사실을 알아채고 스텁을 자동으로 생성해주면 얼마나 좋을까 하는데 , 코파일럿이 실제로 해준다.. 좋은 세상
 
 테스트 메서드를 직접 호출하는 대신 진짜 인터페이스인 run 메서드를 사용한다.
 
