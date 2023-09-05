@@ -39,6 +39,7 @@ TestResult는 실제 실행된 테스트 수를 계산한다.
 
 
 그리고 testBrokenMethod를 구현한다.
+
 ![image](https://github.com/KonCC/test-driven-development/assets/102205852/3f0a1ac7-d61b-4504-a594-dc51813a3694)
 
 
