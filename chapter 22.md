@@ -4,11 +4,11 @@
 
 ## WasRun
 
-![스크린샷 2023-09-11 오후 8.28.51.png](https://github.com/KonCC/test-driven-development/blob/main/images/chapter%2022-1.png)
+![스크린샷 2023-09-11 오후 8.28.51.png](./images/chapter%2022-1.png)
 
 ## TestCaseTest
 
-![스크린샷 2023-09-11 오후 8.29.05.png](https://github.com/KonCC/test-driven-development/blob/main/images/chapter%2022-2.png)
+![스크린샷 2023-09-11 오후 8.29.05.png](./images/chapter%2022-2.png)
 
 - 실패하는 테스트를 좀 더 세밀한 단위의 테스트를 작성해서 올바른 결과를 출력하는 걸 확인하자
 
@@ -18,9 +18,9 @@
 
 - 일단 test 실패 시 문자열이 제대로 나오는지 확인하자
     
-    ![스크린샷 2023-09-11 오후 8.33.08.png](https://github.com/KonCC/test-driven-development/blob/main/images/chapter%2022-3.png)
+    ![스크린샷 2023-09-11 오후 8.33.08.png](./images/chapter%2022-3.png)
     
-    ![스크린샷 2023-09-11 오후 8.33.18.png](https://github.com/KonCC/test-driven-development/blob/main/images/chapter%2022-4.png)
+    ![스크린샷 2023-09-11 오후 8.33.18.png](./images/chapter%2022-4.png)
     
     - 횟수는 맞다면 제대로 출력할 수 있지만 일단 신경 쓰지 않는다. (저자가 커피 약발이 들기 시작했기 때문…)
     
@@ -32,7 +32,7 @@
     
     ## TestCase
     
-    ![스크린샷 2023-09-11 오후 8.41.52.png](https://github.com/KonCC/test-driven-development/blob/main/images/chapter%2022-5.png)
+    ![스크린샷 2023-09-11 오후 8.41.52.png](./images/chapter%2022-5.png)
     
     - self.setUp()에서 문제가 발생한 경우는 예외가 잡히지 않을 것
         - 하지만 코드를 수정하기 위해서는 또 다른 테스트가 필요
