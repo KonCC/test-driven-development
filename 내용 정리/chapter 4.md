@@ -1,4 +1,4 @@
-# 4장 - 프라이버시
+# 4장 프라이버시
 
 ```kotlin
 fun testMultiplication() {

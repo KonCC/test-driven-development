@@ -31,7 +31,7 @@ public class Sum implements Expression {
 
 
 
-### 인터페이스에 의존하기
+## 인터페이스에 의존하기
 
 Money를 Expression로 대체하자
 

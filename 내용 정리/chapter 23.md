@@ -1,17 +1,17 @@
-# 23장 - 얼마나 달콤한지
+# 23장 얼마나 달콤한지
 
-![스크린샷 2023-09-11 오후 8.47.20.png](./images/chapter%2023-1.png)
+![스크린샷 2023-09-11 오후 8.47.20.png](../images/chapter%2023-1.png)
 
 파일 마지막에 테스트를 호출하는 코드가 중복이 많다.
 
 - 테스트를 한 번에 모아서 실행할 수 있는 기능을 원함
 - TestSuite를 구현
 
-![스크린샷 2023-09-11 오후 8.49.48.png](./images/chapter%2023-2.png)
+![스크린샷 2023-09-11 오후 8.49.48.png](../images/chapter%2023-2.png)
 
 - add메서드가 필요
 
-![스크린샷 2023-09-11 오후 8.52.12.png](./images/chapter%2023-3.png)
+![스크린샷 2023-09-11 오후 8.52.12.png](../images/chapter%2023-3.png)
 
 - test.run()에서 TestCase.run() 메서드에 매개변수가 추가되면 여기도 매개 변수를 추가해줘야 한다.
     - 파이썬의 기본 매개 변수 기능을 사용
@@ -24,35 +24,35 @@
     
     ## TestCaseTest
     
-    ![스크린샷 2023-09-11 오후 8.58.01.png](./images/chapter%2023-4.png)
+    ![스크린샷 2023-09-11 오후 8.58.01.png](../images/chapter%2023-4.png)
     
     - suite.run에 만들어 놓은 TestResult를 전달한다.
     
     ## TestSuite
     
-    ![스크린샷 2023-09-11 오후 8.58.14.png](./images/chapter%2023-5.png)
+    ![스크린샷 2023-09-11 오후 8.58.14.png](../images/chapter%2023-5.png)
     
     - run은 이제 반환하지 않아도 된다.
     
     ## TestCase
     
-    ![스크린샷 2023-09-11 오후 8.58.27.png](./images/chapter%2023-6.png)
+    ![스크린샷 2023-09-11 오후 8.58.27.png](../images/chapter%2023-6.png)
     
     - 첫번째 줄에 result = TestResult()부분을 지울 수 있게 되었따.
 
 - 그리고 이제 테스트 호출 코드를 정리할 수 있다.
 
-![스크린샷 2023-09-11 오후 9.02.10.png](./images/chapter%2023-7.png)
+![스크린샷 2023-09-11 오후 9.02.10.png](../images/chapter%2023-7.png)
 
 - 실패하는 테스트 고치기
 - test.run() 메서드에 result 매개변수가 없어 실패하는 메서드를 통과하게 수정해주자
-    
-    ![스크린샷 2023-09-11 오후 9.08.31.png](./images/chapter%2023-8.png)
+  
+    ![스크린샷 2023-09-11 오후 9.08.31.png](../images/chapter%2023-8.png)
     
     - result = TestResult()가 중복되고 있다
         - setUp()에서 생성하게 만들기
-            
-            ![스크린샷 2023-09-11 오후 9.13.23.png](./images/chapter%2023-9.png)
+          
+            ![스크린샷 2023-09-11 오후 9.13.23.png](../images/chapter%2023-9.png)
             
         
     
@@ -65,7 +65,7 @@
     
     # 전체 코드
 
-  ```
+  ```python
   class TestCase:
     def __init__(self,name):
         self.name = name
@@ -84,7 +84,7 @@
         return result
     def tearDown(self):
         pass
-
+  
   class WasRun(TestCase):
       def testMethod(self):
           self.wasRun = 1
@@ -157,4 +157,3 @@
   suite.run(result)
   print result.summary()
 
-```

@@ -1,6 +1,6 @@
-# 드디어 더하기
+# 13장 드디어 더하기
 
-### 다중 통화를 표현하는 방법
+## 다중 통화를 표현하는 방법
 
 1. 모든 내부 값을 참조통화로 전환하는 방법 – 여러 환율을 쓰기 어려움
 
@@ -15,7 +15,7 @@
 
 -  Reduced는 Expression으로 Expression에 환율을 적용함으로써 얻어진다
 - Bank가 reduce의 책임을 가짐
-![img](images/chapter%2012-1.png)
+![img](../images/chapter%2012-1.png)
 
 
 > 왜 Bank에서 reduce에 대한 책임을 가지나?  
@@ -25,10 +25,9 @@ A) 핵심 객체인 Expression이 가능한 오랫 동안 유연하게 하기 �
 > -\> Expression이 다른 부분에 대해서는 모르도록 해야함
 
 일단은 reduce에 대해 스텁 구현을 해놓음 
-![img](images/chapter%2012-2.png)
+![img](../images/chapter%2012-2.png)
 
 >결과적으로는, 컴파일이 가능하며  
 testCode가 전부 초록색임  
 즉, 리팩토링할 수 있음
-
 

@@ -1,4 +1,4 @@
-# 2부
+# 18장 xUnit으로 가는 첫걸음
 
 xUnit이란?
 
@@ -8,11 +8,9 @@ unit testing framework를 통틀어 칭하는 명칭이다.
 
 파생상품으로는 Junit, Nnuit, [xUnit.net](http://xUnit.net) 등이 있다.
 
-# 18장
 
-## xUnit으로 가는 첫걸음
 
-2부의 주제
+## 2부의 주제
 
 -   TDD를 통해 실제 소프트웨어를 만드는 발전된 예제
 -   자기 참조 프로그래밍에 대한 전산학 실습
@@ -46,8 +44,7 @@ unit testing framework를 통틀어 칭하는 명칭이다.
 
 ![image](https://github.com/KonCC/test-driven-development/assets/102205852/e23f2abe-840c-4d16-96a6-4b6486100391)
 
-
-### 현재 WasRun 클래스가 수행하는 일 두가지
+## 현재 WasRun 클래스가 수행하는 일 두가지
 
 -   메서드가 호출되었는지 아닌지 기억하는 일
 -   메서드를 동적으로 호출하는 일

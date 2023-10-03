@@ -1,10 +1,10 @@
-## 2장 타락한 객체
+# 2장 타락한 객체
 
 현재까지 짠 코드에서는 Dollar에 대한 연산을 수행하고 나면 Dollar의 값이 바뀌고 만다.
 
 다음 테스트를 살펴보자.
 
-```
+```java
  public void testMultiplication() {
      Dollar five = new Dollar(5);
      five.times(2);
@@ -16,7 +16,7 @@
 
 한번 times를 실행하고 나면, 객체는 값이 바뀌고 오염되므로, 새로운 객체를 반환하기를 원한다.
 
-```
+```java
  public void testMultiplication() {
      Dollar five = new Dollar(5);
      Dollar product = five.times(2);
@@ -30,21 +30,21 @@
 
 하지만 기존 코드로는 컴파일이 안되므로 ,  times를 수정해주자.
 
-```
-     Dollar times(int multiplier) {
-         amount *= multiplier;
-         return null;
-     }
+```java
+ Dollar times(int multiplier) {
+     amount *= multiplier;
+     return null;
+ }
 ```
 
 이제 컴파일은 성공하지만, 실행은 되지 않는다.
 
 올바른 값을 반환해 테스트를 통과하게 해주자.
 
-```
-     Dollar times(int multiplier) {
-         return new Dollar(amount*multiplier);
-     }
+```java
+ Dollar times(int multiplier) {
+     return new Dollar(amount*multiplier);
+ }
 ```
 
 이제 테스트는 통과했고, 테스트 두개를 무사히 해결했다.

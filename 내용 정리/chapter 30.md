@@ -1,6 +1,4 @@
-# 30장. 디자인 패턴
-
-
+# 30장 디자인 패턴
 
 ## 커맨드
 
@@ -104,7 +102,7 @@ public static SecurityManager getSecurityManager() {
 - 상위클래스에는 다른 메서드를 호출하는 내용으로만 이루어진 메서드를 만들고
 - 하위클래스에서는 이 각각의 패턴을 서로 다른 방식으로 구현한다.
 
-<img src="./images/chapter 30-1.png" alt="chapter 30-1" style="zoom:33%;" />
+<img src="../images/chapter 30-1.png" alt="chapter 30-1" style="zoom:33%;" />
 
 ## 플러거블 객체
 
